@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>{{title}}</h1>
+	<h6>Зоомаркет: {{address}}</h6>
+    <p>Электронный адрес: {{email}}</p>
+    <p>Телефон: {{phone}}</p>
+	
+		
+
+        
+        
+
+
+	<!--	{{#if breed}}  	{{/if}}  -->
+	
+	<h3>породы:</h3>	
+		{{#each breed}}
+			<ul><li>{{this}}</li></ul>
+		{{/each}}
+</body>
+<html>
